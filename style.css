@@ -1,0 +1,7 @@
+header, footer { 
+    display: block;
+}
+header { 
+   background-color: white;
+   opacity: 0.5;
+}
