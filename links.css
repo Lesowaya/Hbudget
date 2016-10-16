@@ -1,0 +1,49 @@
+.download{
+    position: absolute;
+}
+.downloadText{  
+}
+.appstore, .playmarket, .winphone, .blackbarry{
+  float: left;
+  margin-right: 10px;
+
+  width: 36px;
+  height: 36px;
+}
+.appstore{
+  background: url("img/appstore.png");
+}
+
+.playmarket{
+  background: url("img/playmarket.png");
+}
+
+.winphone{
+  background: url("img/winphone.png");
+}
+
+.blackbarry{
+  background: url("img/blackbarry.png");
+  margin-right: 0;
+}
+
+.appstore:hover{
+  background: url("img/appstore_c.png");
+  cursor: pointer;
+
+}
+
+.playmarket:hover{
+  background: url("img/playmarket_c.png");
+  cursor: pointer;
+}
+
+.winphone:hover{
+  background: url("img/winphone_c.png");
+  cursor: pointer;
+}
+
+.blackbarry:hover{
+  background: url("img/blackbarry_c.png");
+  cursor: pointer;
+}

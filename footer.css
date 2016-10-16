@@ -1,0 +1,57 @@
+footer{	
+ bottom: 0;
+  font-family: sans-serif;
+    color: #68757e; 
+background-color: #f7f8f9;
+}
+pre{
+    float: left;
+    margin-left: 15%;
+    vertical-align: middle;
+
+}
+.facebook, .g, .twitt{
+    float: right;
+  width: 36px;
+  height: 36px;
+  margin-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.facebook{
+  background: url("img/facebook.png");
+}
+
+.g{
+  background: url("img/g.png");
+}
+
+.twitt{
+  background: url("img/twitt.png");
+  margin-right: 15%;
+}
+
+.facebook:hover{
+  background: url("img/facebook_c.png");
+  cursor: pointer;
+
+}
+
+.g:hover{
+  background: url("img/g_c.png");
+  cursor: pointer;
+}
+
+.twitt:hover{
+  background: url("img/twitt_c.png");
+  cursor: pointer;
+}
+.rules{
+    text-align: center;    
+    padding-top: 1.5vh;
+   background-color: rgba(238,240,242,1);
+   height: 4vh;
+}
+.share{
+    height: 46px;
+}
