@@ -1,6 +1,5 @@
 footer{	
  bottom: 0;
-  font-family: sans-serif;
     color: #68757e; 
 background-color: #f7f8f9;
 }
@@ -8,6 +7,7 @@ pre{
     float: left;
     margin-left: 15%;
     vertical-align: middle;
+    font-size: 120%;
 
 }
 .facebook, .g, .twitt{
@@ -48,9 +48,9 @@ pre{
 }
 .rules{
     text-align: center;    
-    padding-top: 1.5vh;
+    padding-top: 12px;
    background-color: rgba(238,240,242,1);
-   height: 4vh;
+   height: 30px;
 }
 .share{
     height: 46px;

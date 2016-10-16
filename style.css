@@ -15,7 +15,9 @@
 
 
 }
-
+body{    
+    font-family: 'Open Sans', sans-serif;
+}
 .btn {
 	float: right;
 	margin-right: 15%;
@@ -28,7 +30,7 @@ header, footer {
 	width: 100%;
 }
 header{
-	height: 7vh;
+	height: 50px;
    background-color: rgba(255,255,255,0.5);
    position: fixed;
 }
