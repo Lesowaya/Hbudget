@@ -4,19 +4,21 @@
     margin-top: 8px;
 }
 .support{
-	vertical-align: center;
+	vertical-align: middle;
     margin-top: 5px;
-    padding: 10px 5px;
+    padding: 10px 20px;
 	float: right;
-	margin-right: 15px;
+	margin-right: 45px;
   	border: 1px solid #33cccc;  	
 	border-radius: 3px;
 	background-color: white;
+    color: #68757e;
 
 
 }
-body{    
-    font-family: 'Open Sans', sans-serif;
+body
+{    
+    font-family: 'Roboto', sans-serif;
 }
 .btn {
 	float: right;
@@ -24,6 +26,7 @@ body{
 }
 .support:hover, .support:active, .support:focus{
  background-color: #33cccc;
+ color: white;
 }
 header, footer { 
     display: block;
@@ -31,7 +34,7 @@ header, footer {
 }
 header{
 	height: 50px;
-   background-color: rgba(255,255,255,0.5);
+   background-color: rgba(255,255,255,0.6);
    position: fixed;
 }
 .dropbtn {
@@ -68,7 +71,7 @@ header{
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #33cccc;}
+.dropdown-content a:hover {background-color: #f1f3f5;}
 
 .dropdown:hover .dropdown-content {
     display: block;

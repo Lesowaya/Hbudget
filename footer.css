@@ -47,10 +47,11 @@ pre{
   cursor: pointer;
 }
 .rules{
-    text-align: center;    
-    padding-top: 12px;
+    text-align: center; 
+    vertical-align: middle;
    background-color: rgba(238,240,242,1);
-   height: 30px;
+   height: 50px;
+   margin-top: 0;
 }
 .share{
     height: 46px;

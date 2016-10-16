@@ -1,49 +1,55 @@
 .download{
     position: absolute;
 }
-.downloadText{  
-}
 .appstore, .playmarket, .winphone, .blackbarry{
   float: left;
-  margin-right: 10px;
+  margin-right: 0.5vw;
 
-  width: 36px;
-  height: 36px;
+  width: 3vw;
+  height: 3vw;
 }
 .appstore{
-  background: url("img/appstore.png");
+  background: url("img/appstore.png") no-repeat 100%;
+    background-size: 100%;
 }
 
 .playmarket{
-  background: url("img/playmarket.png");
+  background: url("img/playmarket.png") no-repeat 100%;
+    background-size: 100%;
 }
 
 .winphone{
-  background: url("img/winphone.png");
+  background: url("img/winphone.png") no-repeat 100%;
+    background-size: 100%;
 }
 
 .blackbarry{
-  background: url("img/blackbarry.png");
+  background: url("img/blackbarry.png") no-repeat 100%;
+    background-size: 100%;
   margin-right: 0;
 }
 
 .appstore:hover{
-  background: url("img/appstore_c.png");
+  background: url("img/appstore_c.png") no-repeat 100%;  
+    background-size: 100%;
   cursor: pointer;
 
 }
 
 .playmarket:hover{
-  background: url("img/playmarket_c.png");
+  background: url("img/playmarket_c.png") no-repeat 100%;  
+    background-size: 100%;
   cursor: pointer;
 }
 
 .winphone:hover{
-  background: url("img/winphone_c.png");
+  background: url("img/winphone_c.png") no-repeat 100%;
+    background-size: 100%;
   cursor: pointer;
 }
 
 .blackbarry:hover{
-  background: url("img/blackbarry_c.png");
+  background: url("img/blackbarry_c.png") no-repeat 100%;
+    background-size: 100%;
   cursor: pointer;
 }
