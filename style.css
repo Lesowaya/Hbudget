@@ -15,8 +15,9 @@
 
 
 }
-body{    
-    font-family: 'Open Sans', sans-serif;
+body
+{    
+    font-family: 'Roboto', sans-serif;
 }
 .btn {
 	float: right;
@@ -31,7 +32,7 @@ header, footer {
 }
 header{
 	height: 50px;
-   background-color: rgba(255,255,255,0.5);
+   background-color: rgba(255,255,255,0.6);
    position: fixed;
 }
 .dropbtn {
@@ -68,7 +69,7 @@ header{
     display: block;
 }
 
-.dropdown-content a:hover {background-color: #33cccc;}
+.dropdown-content a:hover {background-color: #f1f3f5;}
 
 .dropdown:hover .dropdown-content {
     display: block;

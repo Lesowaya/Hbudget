@@ -8,6 +8,7 @@
 }
 .budget{
     position: absolute;
+    font-weight: lighter;
     margin-top: 7vw;
     margin-left: 18vw;  
     color: #68757e; 
@@ -19,7 +20,7 @@
 }
 body{
     margin: 0;
-  font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     height: 100%;
     width: 100%;
 }
@@ -36,7 +37,7 @@ h1, .p{
     margin-bottom: 0;
     text-align: center;
     font: 200% light;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: normal;
     color: #68757e; 
     margin-top: 10vh;
